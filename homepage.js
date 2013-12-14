@@ -101,6 +101,7 @@ function main() {
   });
   
   var links = [
+  	[ 'Google', 'google.png', 'http://google.com' ],
   	[ 'Pandora', 'pandora.jpeg', 'http://pandora.com' ],
   	[ 'Hulu', 'hulu.png', 'http://hulu.com' ],
   	[ 'Amazon Videos', 'amazonvideo.png', 'http://www.amazon.com/Video-On-Demand/b/ref%3Dtopnav_storetab_atv%3Fie%3DUTF8%26node%3D16261631&usd=2&usg=AFQjCNEwSYD-gozRIhJUlLSv-TcQ9VrwkQ' ],
