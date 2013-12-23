@@ -30,7 +30,7 @@ function OpenInNewTab(url )
 
 function makeLink(parent, idx, name, url, img) {
   var size = 90;
-  var cols = 4;
+  var cols = 5;
   var x = (idx % cols) | 0;
   var y = (idx / cols) | 0;
   var box = make('div', parent, {
@@ -101,7 +101,8 @@ function main() {
   });
   
   var links = [
-  	[ 'Google', 'google.png', 'http://google.com' ],
+    [ 'Zone Control', 'zonecontrol.png', 'http://192.168.1.13/keypad.html' ],
+    [ 'Google', 'google.png', 'http://google.com' ],
   	[ 'Pandora', 'pandora.jpeg', 'http://pandora.com' ],
   	[ 'Hulu', 'hulu.png', 'http://hulu.com' ],
   	[ 'Amazon Videos', 'amazonvideo.png', 'http://www.amazon.com/Video-On-Demand/b/ref%3Dtopnav_storetab_atv%3Fie%3DUTF8%26node%3D16261631&usd=2&usg=AFQjCNEwSYD-gozRIhJUlLSv-TcQ9VrwkQ' ],
