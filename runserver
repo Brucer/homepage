@@ -1,0 +1,2 @@
+nohup node /usr/local/bin/http-server -p 3009 &
+
