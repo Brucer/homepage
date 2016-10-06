@@ -1,3 +1,2 @@
 killport 3009
-nohup node /usr/local/bin/http-server -p 3009 &
-
+nohup > /dev/null http-server -p 3009 &
