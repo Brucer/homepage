@@ -101,7 +101,7 @@ function main() {
   });
   
   var links = [
-    [ 'Zone Control', 'zonecontrol.png', 'http://192.168.1.13/keypad.html' ],
+    [ 'Zone Control', 'zonecontrol.png', 'http://192.168.86.13/keypad.html' ],
     [ 'Google', 'google.png', 'http://google.com' ],
   	[ 'Pandora', 'pandora.jpeg', 'http://pandora.com' ],
     [ 'LG 10 Day weather', 'weather.png', 'https://weather.com/weather/tenday/l/95030' ],
@@ -120,7 +120,6 @@ function main() {
   	[ 'Facebook', 'facebook.jpeg', 'http://facebook.com' ],
   	[ 'the big picture', 'thebigpicture.png', 'http://www.ritholtz.com/blog' ],
     [ 'Marginal Revolution', 'marginalrevolution.gif', 'http://www.marginalrevolution.com' ],
-    [ 'Quip shopping list', 'quip.png', 'https://quip.com/5pSBAAvFyGn9' ],
   ];
   for(var i=0;i<links.length;i++) {
   	var link = links[i];
